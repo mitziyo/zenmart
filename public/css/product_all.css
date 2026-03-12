@@ -532,6 +532,7 @@
 .access_frame .container {
   display: flex;
   flex-direction: column;
+  align-items: center ;
 }
 
 .container .access_top {
@@ -604,74 +605,69 @@
   margin-top: 30px;
 }
 
-.pagination_frame {
-  position: relative;
-  width: 100%;
-  height: auto;
 
+.pagina .pro_pagination {
   display: flex;
   justify-content: center;
-}
-
-.pagination_frame .container .pagination_box .pagination_main {
-  width: auto;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
-.pagination_frame .pagination_main img {
-  cursor: pointer;
-}
+.access_frame .pro_pagination {
+  margin-top: 60px;
+  width: 460px;
+  height: 50px;
 
-.pagination_frame .pagination_main .pagination_dot {
-  margin: 0 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.pagination_frame .pagination_dot .dot {
-  width: 20px;
-  height: 20px;
+.pro_pagination .next_prev_button {
+  width: 50px;
+  height: 50px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
+  background: #ffffff;
   border-radius: 50%;
-}
-
-.pagination_frame .pagination_dot .dot.active {
-  border: 2px solid #112137;
-}
-
-.pagination_frame .pagination_dot .dot div {
-  width: 4px;
-  height: 4px;
-  background: #112137;
-  border-radius: 50%;
-}
-
-.pagination_frame .hover_border {
-  margin-top: 3px;
-  width: 32px;
-  height: 2px;
-  opacity: 0;
-  background: #041e42;
-}
-
-.pagination_frame .hover_border:hover {
-  opacity: 1;
-}
-
-.pagination_frame .next_prev_box {
-  width: 25px;
-}
-
-.pagination_frame .next_prev_box img {
-  position: absolute;
-  top: 50%;
+  border: 1px solid #eaeaea;
   cursor: pointer;
+}
+
+.next_prev_button img {
+  width: 15px;
+  height: 15px;
+}
+
+.pro_pagination .pagination_number_wrapper {
+width: 312px;
+height: auto;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.pagination_number_wrapper .pagination_number_box {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination_number_wrapper .pagination_number_box.active {
+background: #f5c34b;
+border: 1px solid #f5c34b;
+}
+
+.pagination_number_wrapper .pagination_number_box:hover {
+  background: #f3f5f6;
+  border: 1px solid #f3f5f6;
 }
