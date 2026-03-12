@@ -508,3 +508,18 @@ p {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* Page router */
+.shop_home_frame .container .shop_home_frame_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shop_home_frame .container .shop_home_frame_top a {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
