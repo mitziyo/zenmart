@@ -1,0 +1,437 @@
+.chosen_product_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1000px;
+}
+
+.chosen_product_page .shop_frame {
+  position: relative;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(234, 234, 234, 1);
+}
+
+.shop_frame .container {
+  flex-direction: row;
+  align-items: center;
+}
+
+.shop_frame .container div a {
+  margin-right: 30px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.shop_frame .container div {
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop_frame .container div:hover {
+  border-bottom: 2px solid black;
+}
+
+.chosen_product_page .head_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_frame .container {
+  flex-direction: column;
+}
+
+.head .container .shop_home_frame_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.head_frame .container .shop_home_frame_top a {
+  color: rgba(4, 30, 66, 1);
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main_head_part {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_head_part .main_head_left {
+  position: relative;
+  width: 637px;
+  height: 838px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_head_left .head_left_top {
+  width: 632px;
+  height: 686px;
+
+  position: relative;
+}
+
+.main_head_left .head_left_top .img2 {
+  width: 100%;
+  height: 100%;
+}
+
+.main_head_left .head_left_top .img1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  width: 24px;
+  height: 22px;
+}
+
+.main_head_left .head_left_bottom {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main_head_left .head_left_bottom .img_small {
+  width: 73px;
+  height: 80px;
+
+  padding: 10px 9px;
+  box-sizing: border-box;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+
+  margin-right: 30px;
+}
+
+.main_head_left .head_left_bottom .img_small img {
+  width: 55px;
+  height: 60px;
+}
+
+.main_head_left .head_left_bottom .img_small.active {
+  box-sizing: border-box;
+  border: 2px solid rgba(68, 50, 151, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.main_head_right {
+  position: relative;
+  width: 637px;
+  height: 838px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main_head_right .star_box {
+  width: auto;
+  height: 22px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.star_box .reviews_star {
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5px;
+
+  border-left: 1px solid rgba(234, 234, 234, 1);
+}
+
+.star_box strong {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  padding-right: 7px;
+}
+
+.star_box .reviews_star img {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+}
+
+.star_box .reviews_star span {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main_head_right .apple_info {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+
+  margin: 18px 0;
+}
+
+.main_head_right .price_box {
+  width: 165px;
+  height: 38px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_head_right .price_box strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.main_head_right .price_box span {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+
+  text-decoration-line: line-through;
+}
+
+.main_head_right .info_bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.info_bar .info_bar_left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 44px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.info_bar .info_bar_right {
+  display: flex;
+  flex-direction: column;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main_head_right .line {
+  margin: 20px 0;
+  color: rgba(234, 234, 234, 1);
+}
+
+.main_head_right .apple_cards {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apple_cards .apple_card {
+  width: 154px;
+  height: 52px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 60px;
+}
+
+.apple_card img {
+  width: 11px;
+  height: 11px;
+
+  border-radius: 30px;
+  padding: 10px 12px;
+}
+
+.apple_cards .apple_card {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apple_cards .apple_card {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.apple_cards .apple_card2 {
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 60px;
+  background: rgba(245, 195, 75, 1);
+}
+
+.apple_cards .apple_card2 span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.apple_cards .apple_card3 {
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(68, 50, 151, 1);
+  border-radius: 60px;
+  background: rgba(68, 50, 151, 1);
+}
+
+.apple_cards .apple_card3 span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.apple_cards .image {
+  width: 19px;
+  height: 16px;
+  color: rgba(4, 30, 66, 1);
+  filter: brightness(0);
+}
+.main_head_right .tags_info {
+  width: 323px;
+  height: 90px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.main_head_right .sharing {
+  width: 142px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_head_right .sharing span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main_head_right .shipping_info {
+  width: 567px;
+  height: 112px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.main_head_right .shipping_info .informations {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main_head_right .shipping_info .informations img {
+  width: 24px;
+  height: 17px;
+
+  margin-right: 10px;
+}
